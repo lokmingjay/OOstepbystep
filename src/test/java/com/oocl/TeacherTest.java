@@ -11,7 +11,7 @@ public class TeacherTest {
         Teacher teacher = new Teacher();
         teacher.setName("Tom");
         teacher.setAge(18);
-        Assert.assertEquals("My name is Tom. I am 18 years old. Teaching for the future of world.\n",teacher.introduce());
+        Assert.assertEquals("My name is Tom. I am 18 years old. Teaching for the future of world.",teacher.introduce());
 
     }
 }
