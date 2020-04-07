@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba636bdf-81bc-4a46-a2cd-839c5d7b3958" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aCXQQxo3SSkUL1Ci8Rqlp2jCDb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.oocl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TeacherTest.should_introduce_himself_teacher">
+    <configuration name="PeopleTest.should_introduce_himself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PeopleTest" />
+      <option name="METHOD_NAME" value="should_introduce_himself" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.should_introduce_himself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
+      <option name="METHOD_NAME" value="should_introduce_himself" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest.should_introduce_himself_teacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
+      <option name="METHOD_NAME" value="should_introduce_himself_teacher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeacherTest.should_introduce_himself_teacher" />
+        <item itemvalue="JUnit.StudentTest.should_introduce_himself" />
+        <item itemvalue="JUnit.PeopleTest.should_introduce_himself" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba636bdf-81bc-4a46-a2cd-839c5d7b3958" name="Default Changelist" comment="" />
+      <created>1586240532798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586240532798</updated>
+      <workItem from="1586240537803" duration="2143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="288" y="191" key="#File_and_Code_Templates" timestamp="1586242413176">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="288" y="191" key="#File_and_Code_Templates/0.0.1504.963@0.0.1504.963" timestamp="1586242413176" />
+    <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586242570687">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1504.963@0.0.1504.963" timestamp="1586242570687" />
+    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1586242354211">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586242354211" />
+    <state width="1342" height="241" key="GridCell.Tab.0.bottom" timestamp="1586242631001">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1342" height="241" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586242631001" />
+    <state width="1342" height="241" key="GridCell.Tab.0.center" timestamp="1586242631000">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1342" height="241" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586242631000" />
+    <state width="1342" height="241" key="GridCell.Tab.0.left" timestamp="1586242631000">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1342" height="241" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586242631000" />
+    <state width="1342" height="241" key="GridCell.Tab.0.right" timestamp="1586242631000">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1342" height="241" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586242631000" />
+    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586242315039">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586242315039" />
+    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1586242380714">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586242380714" />
+  </component>
+</project>
