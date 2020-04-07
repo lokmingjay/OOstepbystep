@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba636bdf-81bc-4a46-a2cd-839c5d7b3958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/Notify_Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/Notify_Leader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/PeopleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/PeopleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Notify_Teacher.should_nofity_teacher_when_student_join_class">
+  <component name="RunManager" selected="JUnit.Notify_Leader.should_notify_teacher_when_leader_assigned">
     <configuration name="KlassTest.should_join_class_only_once" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
@@ -68,6 +62,22 @@
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.KlassTest" />
       <option name="METHOD_NAME" value="should_join_class_only_once" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notify_Leader.should_notify_teacher_when_leader_assigned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.Notify_Leader" />
+      <option name="METHOD_NAME" value="should_notify_teacher_when_leader_assigned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,34 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherTest.should_introduce_himself_teacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
-      <option name="METHOD_NAME" value="should_introduce_himself_teacher" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Notify_Leader.should_notify_teacher_when_leader_assigned" />
         <item itemvalue="JUnit.Notify_Teacher.should_nofity_teacher_when_student_join_class" />
         <item itemvalue="JUnit.Notify_Teacher" />
         <item itemvalue="JUnit.KlassTest.should_join_class_only_once" />
         <item itemvalue="JUnit.StudentTest.should_introduce_himself_student_expected" />
-        <item itemvalue="JUnit.TeacherTest.should_introduce_himself_teacher" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -159,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586240532798</updated>
-      <workItem from="1586240537803" duration="15358000" />
+      <workItem from="1586240537803" duration="16797000" />
     </task>
     <servers />
   </component>
@@ -179,37 +170,37 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586257568671" />
-    <state width="1342" height="241" key="GridCell.Tab.0.bottom" timestamp="1586258845130">
+    <state width="1461" height="241" key="GridCell.Tab.0.bottom" timestamp="1586260252281">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
-    <state width="1342" height="241" key="GridCell.Tab.0.center" timestamp="1586258845130">
+    <state width="1461" height="241" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586260252281" />
+    <state width="1461" height="241" key="GridCell.Tab.0.center" timestamp="1586260252281">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
-    <state width="1342" height="241" key="GridCell.Tab.0.left" timestamp="1586258845130">
+    <state width="1461" height="241" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586260252281" />
+    <state width="1461" height="241" key="GridCell.Tab.0.left" timestamp="1586260252281">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
-    <state width="1342" height="241" key="GridCell.Tab.0.right" timestamp="1586258845130">
+    <state width="1461" height="241" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586260252281" />
+    <state width="1461" height="241" key="GridCell.Tab.0.right" timestamp="1586260252281">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
-    <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586257504961">
+    <state width="1461" height="241" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586260252281" />
+    <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586259009533">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1504.963@0.0.1504.963" timestamp="1586257504961" />
-    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586257706949">
+    <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1504.963@0.0.1504.963" timestamp="1586259009533" />
+    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586259000283">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586257706949" />
+    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586259000283" />
     <state x="916" y="231" width="588" height="732" key="find.popup" timestamp="1586257982300">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="916" y="231" width="588" height="732" key="find.popup/0.0.1504.963@0.0.1504.963" timestamp="1586257982300" />
-    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1586245656300">
+    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1586259014559">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586245656300" />
+    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586259014559" />
   </component>
 </project>

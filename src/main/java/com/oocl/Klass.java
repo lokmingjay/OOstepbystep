@@ -37,6 +37,9 @@ public class Klass {
         }
     }
 
+    public boolean isTeacherOfTheClass(Teacher teacher){
+        return teacher == this.teacher;
+    }
     public boolean isLeader(Student student) {
         return leader == student;
     }
@@ -51,4 +54,5 @@ public class Klass {
             teacher.setCount(count + 1);
         }
     }
+
 }
