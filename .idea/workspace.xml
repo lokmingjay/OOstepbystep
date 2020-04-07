@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba636bdf-81bc-4a46-a2cd-839c5d7b3958" name="Default Changelist" comment="" />
+    <list default="true" id="ba636bdf-81bc-4a46-a2cd-839c5d7b3958" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/oocl/Notify_Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/PeopleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/PeopleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aCXQQxo3SSkUL1Ci8Rqlp2jCDb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -39,8 +56,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TeacherTest.should_introduce_himself_teacher">
-    <configuration name="PeopleTest.should_introduce_himself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Notify_Teacher.should_nofity_teacher_when_student_join_class">
+    <configuration name="KlassTest.should_join_class_only_once" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -49,14 +66,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.PeopleTest" />
-      <option name="METHOD_NAME" value="should_introduce_himself" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.KlassTest" />
+      <option name="METHOD_NAME" value="should_join_class_only_once" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.should_introduce_himself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Notify_Teacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.Notify_Teacher" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notify_Teacher.should_nofity_teacher_when_student_join_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.Notify_Teacher" />
+      <option name="METHOD_NAME" value="should_nofity_teacher_when_student_join_class" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.should_introduce_himself_student_expected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.StudentTest" />
-      <option name="METHOD_NAME" value="should_introduce_himself" />
+      <option name="METHOD_NAME" value="should_introduce_himself_student_expected" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,9 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Notify_Teacher.should_nofity_teacher_when_student_join_class" />
+        <item itemvalue="JUnit.Notify_Teacher" />
+        <item itemvalue="JUnit.KlassTest.should_join_class_only_once" />
+        <item itemvalue="JUnit.StudentTest.should_introduce_himself_student_expected" />
         <item itemvalue="JUnit.TeacherTest.should_introduce_himself_teacher" />
-        <item itemvalue="JUnit.StudentTest.should_introduce_himself" />
-        <item itemvalue="JUnit.PeopleTest.should_introduce_himself" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586240532798</updated>
-      <workItem from="1586240537803" duration="2143000" />
+      <workItem from="1586240537803" duration="15358000" />
     </task>
     <servers />
   </component>
@@ -121,37 +171,45 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="288" y="191" key="#File_and_Code_Templates/0.0.1504.963@0.0.1504.963" timestamp="1586242413176" />
-    <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586242570687">
+    <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586258837019">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1504.963@0.0.1504.963" timestamp="1586242570687" />
-    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1586242354211">
+    <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1504.963@0.0.1504.963" timestamp="1586258837019" />
+    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1586257568671">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586242354211" />
-    <state width="1342" height="241" key="GridCell.Tab.0.bottom" timestamp="1586242631001">
+    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586257568671" />
+    <state width="1342" height="241" key="GridCell.Tab.0.bottom" timestamp="1586258845130">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586242631001" />
-    <state width="1342" height="241" key="GridCell.Tab.0.center" timestamp="1586242631000">
+    <state width="1342" height="241" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
+    <state width="1342" height="241" key="GridCell.Tab.0.center" timestamp="1586258845130">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586242631000" />
-    <state width="1342" height="241" key="GridCell.Tab.0.left" timestamp="1586242631000">
+    <state width="1342" height="241" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
+    <state width="1342" height="241" key="GridCell.Tab.0.left" timestamp="1586258845130">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586242631000" />
-    <state width="1342" height="241" key="GridCell.Tab.0.right" timestamp="1586242631000">
+    <state width="1342" height="241" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
+    <state width="1342" height="241" key="GridCell.Tab.0.right" timestamp="1586258845130">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="241" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586242631000" />
-    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586242315039">
+    <state width="1342" height="241" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586258845130" />
+    <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586257504961">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586242315039" />
-    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1586242380714">
+    <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1504.963@0.0.1504.963" timestamp="1586257504961" />
+    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586257706949">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586242380714" />
+    <state x="467" y="249" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586257706949" />
+    <state x="916" y="231" width="588" height="732" key="find.popup" timestamp="1586257982300">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="916" y="231" width="588" height="732" key="find.popup/0.0.1504.963@0.0.1504.963" timestamp="1586257982300" />
+    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1586245656300">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="409" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586245656300" />
   </component>
 </project>
