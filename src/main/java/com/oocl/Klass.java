@@ -24,6 +24,9 @@ public class Klass {
 
     public boolean appendMember(Student student) {
         if (student.getKclassNumber() != number && !(students.contains(student))) {
+            for(Student otherStudent: students){
+                otherStudent.welcome(student);
+            }
             this.students.add(student);
             student.setKclassNumber(number);
             return true;
@@ -34,6 +37,11 @@ public class Klass {
     public void assignLeader(Student student) {
         if (student.getKclassNumber() == this.number && (students.contains(student))) {
             this.leader = student;
+            for(Student otherstudent: students){
+                if(otherstudent!=student){
+                    otherstudent.welcomeLeader(student);
+                }
+            }
         }
     }
 

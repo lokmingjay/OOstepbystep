@@ -3,7 +3,7 @@ package com.oocl;
 public class Student extends People {
 
     private int kclassNumber;
-
+    private String welcomeMessage;
     public int getKclassNumber() {
         return kclassNumber;
     }
@@ -14,7 +14,16 @@ public class Student extends People {
 
     @Override
     public String introduce() {
-        return "My name is "+getName()+". I am "+ getAge() +" years old. I am a student of class " + kclassNumber+ ". Coding for the glory of OOCL\n";
+        return "My name is "+getName()+". I am "+ getAge() +" years old. I am a student of class " + kclassNumber+ ". Coding for the glory of OOCL";
 
+    }
+    public String getWelcomeMessage(){
+        return welcomeMessage;
+    }
+    public void welcome(Student student){
+        welcomeMessage = introduce() + String.format(". Welcome %s join Class %s.", student.getName(),kclassNumber);
+    }
+    public void welcomeLeader(Student student) {
+        welcomeMessage = introduce() + String.format(". %s is the leader of Class %s.", student.getName(),kclassNumber);
     }
 }
