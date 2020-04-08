@@ -3,14 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ba636bdf-81bc-4a46-a2cd-839c5d7b3958" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Klass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/KlassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/DynamicClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/OtherStudent_Notify_When_Student_Join_ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/Notify_Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/Teacher_Notify_When_Leader_AssignedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/Notify_OtherStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/OtherStudent_Notify_When_Leader_AssignedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/Notify_Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/Teacher_Notify_When_Student_Join_ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Klass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/KlassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/KlassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/TeacherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/DynamicClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/Notify_Leader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/Notify_OtherStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/Notify_Teacher.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +60,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DynamicClassTest.should_otherstudent_nofity_when_student_join_the_class">
-    <configuration name="DynamicClassTest.should_otherstudent_nofity_when_student_join_the_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.oocl in oo-stepbystep">
+    <configuration name="AppTest and 8 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.DynamicClassTest" />
-      <option name="METHOD_NAME" value="should_otherstudent_nofity_when_student_join_the_class" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.oocl.AppTest" />
+        <pattern testClass="com.oocl.OtherStudent_Notify_When_Student_Join_ClassTest" />
+        <pattern testClass="com.oocl.KlassTest" />
+        <pattern testClass="com.oocl.Teacher_Notify_When_Leader_AssignedTest" />
+        <pattern testClass="com.oocl.OtherStudent_Notify_When_Leader_AssignedTest" />
+        <pattern testClass="com.oocl.Teacher_Notify_When_Student_Join_ClassTest" />
+        <pattern testClass="com.oocl.PeopleTest" />
+        <pattern testClass="com.oocl.StudentTest" />
+        <pattern testClass="com.oocl.TeacherTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notify_Leader.should_notify_teacher_when_leader_assigned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OtherStudent_Notify_When_Student_Join_ClassTest.should_otherstudent_nofity_when_student_join_the_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +104,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.Notify_Leader" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.OtherStudent_Notify_When_Student_Join_ClassTest" />
+      <option name="METHOD_NAME" value="should_otherstudent_nofity_when_student_join_the_class" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teacher_Notify_When_Leader_AssignedTest.should_notify_teacher_when_leader_assigned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo-stepbystep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.Teacher_Notify_When_Leader_AssignedTest" />
       <option name="METHOD_NAME" value="should_notify_teacher_when_leader_assigned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notify_OtherStudent.should_otherStudent_notify_when_leader_assigned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.oocl in oo-stepbystep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo-stepbystep" />
       <extension name="coverage">
         <pattern>
@@ -112,36 +136,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.Notify_OtherStudent" />
-      <option name="METHOD_NAME" value="should_otherStudent_notify_when_leader_assigned" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Notify_Teacher.should_nofity_teacher_when_student_join_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo-stepbystep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oocl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.Notify_Teacher" />
-      <option name="METHOD_NAME" value="should_nofity_teacher_when_student_join_class" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DynamicClassTest.should_otherstudent_nofity_when_student_join_the_class" />
+        <item itemvalue="JUnit.com.oocl in oo-stepbystep" />
+        <item itemvalue="JUnit.AppTest and 8 more" />
+        <item itemvalue="JUnit.OtherStudent_Notify_When_Student_Join_ClassTest.should_otherstudent_nofity_when_student_join_the_class" />
         <item itemvalue="JUnit.KlassTest.should_join_class_only_once" />
-        <item itemvalue="JUnit.Notify_Leader.should_notify_teacher_when_leader_assigned" />
-        <item itemvalue="JUnit.Notify_OtherStudent.should_otherStudent_notify_when_leader_assigned" />
-        <item itemvalue="JUnit.Notify_Teacher.should_nofity_teacher_when_student_join_class" />
+        <item itemvalue="JUnit.Teacher_Notify_When_Leader_AssignedTest.should_notify_teacher_when_leader_assigned" />
       </list>
     </recent_temporary>
   </component>
@@ -155,12 +161,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586240532798</updated>
-      <workItem from="1586240537803" duration="23956000" />
+      <workItem from="1586240537803" duration="24669000" />
+      <workItem from="1586307298773" duration="6298000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="288" y="191" key="#File_and_Code_Templates" timestamp="1586242413176">
@@ -171,26 +189,34 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="147" y="509" width="1200" height="724" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1504.963@0.0.1504.963" timestamp="1586269920958" />
-    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1586257568671">
+    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1586312501728">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586257568671" />
-    <state width="1461" height="241" key="GridCell.Tab.0.bottom" timestamp="1586269967172">
+    <state x="562" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586312501728" />
+    <state x="555" y="351" width="394" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586308303147">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="241" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586269967172" />
-    <state width="1461" height="241" key="GridCell.Tab.0.center" timestamp="1586269967172">
+    <state x="555" y="351" width="394" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1504.963@0.0.1504.963" timestamp="1586308303147" />
+    <state width="1461" height="461" key="GridCell.Tab.0.bottom" timestamp="1586314029773">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="241" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586269967172" />
-    <state width="1461" height="241" key="GridCell.Tab.0.left" timestamp="1586269967172">
+    <state width="1461" height="461" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586314029773" />
+    <state width="1461" height="461" key="GridCell.Tab.0.center" timestamp="1586314029773">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="241" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586269967172" />
-    <state width="1461" height="241" key="GridCell.Tab.0.right" timestamp="1586269967172">
+    <state width="1461" height="461" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586314029773" />
+    <state width="1461" height="461" key="GridCell.Tab.0.left" timestamp="1586314029773">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="241" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586269967172" />
+    <state width="1461" height="461" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586314029773" />
+    <state width="1461" height="461" key="GridCell.Tab.0.right" timestamp="1586314029773">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="461" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586314029773" />
+    <state x="461" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1586307307530">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="461" y="310" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1586307307530" />
     <state x="621" y="622" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586259009533">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

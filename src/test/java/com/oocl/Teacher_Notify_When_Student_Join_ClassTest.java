@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Notify_Teacher {
+public class Teacher_Notify_When_Student_Join_ClassTest {
     @Test
     public void should_nofity_teacher_when_student_join_class() {
 

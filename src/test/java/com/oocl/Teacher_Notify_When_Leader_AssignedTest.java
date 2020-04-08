@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Notify_Leader {
+public class Teacher_Notify_When_Leader_AssignedTest {
 
     @Test
     public void should_notify_teacher_when_leader_assigned() {

@@ -4,10 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Notify_OtherStudent {
-
+public class OtherStudent_Notify_When_Student_Join_ClassTest {
     @Test
-    public void should_otherStudent_notify_when_leader_assigned() {
+    public void should_otherstudent_nofity_when_student_join_the_class() {
 
         Klass klass = new Klass(2);
         Student tom = new Student();
@@ -17,7 +16,7 @@ public class Notify_OtherStudent {
         jim.setName("Jim");
         klass.appendMember(tom);
         klass.appendMember(jim);
-        klass.assignLeader(jim);
-        assertEquals("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Jim is the leader of Class 2.",tom.getWelcomeMessage());
+        assertEquals("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Welcome Jim join Class 2.",tom.getWelcomeMessage());
+
     }
 }

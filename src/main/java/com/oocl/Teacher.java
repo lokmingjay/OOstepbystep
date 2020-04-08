@@ -20,11 +20,11 @@ public class Teacher extends People{
     }
 
     public void welcome(Student student, Klass klass){
-        welcomeMessage = introduce() + String.format(" Welcome %s join Class %d.",student.getName(),klass.getNumber());
+        welcomeMessage = introduce() + String.format(" Welcome %s join Class %d.",student.getName(),klass.getNumber(student));
     }
 
     public void welcomeForLeader(Student student, Klass klass){
         if(klass.isLeader(student) && klass.isTeacherOfTheClass(this))
-        welcomeMessage = introduce() + String.format(" %s is the leader of Class %d.",student.getName(),klass.getNumber());
+        welcomeMessage = introduce() + String.format(" %s is the leader of Class %d.",student.getName(),klass.getNumber(student));
     }
 }
